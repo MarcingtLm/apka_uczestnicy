@@ -1,3 +1,7 @@
+from sklearn.impute import SimpleImputer
+if not hasattr(SimpleImputer, "verbose"):
+    SimpleImputer.verbose = 0
+
 import json
 import streamlit as st
 import pandas as pd  # type: ignore
