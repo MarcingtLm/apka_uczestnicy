@@ -121,11 +121,11 @@ if st.session_state.feedback_choice is None:
     with col1:
         if st.button("✅ Opis pasuje do mnie"):
             st.session_state.feedback_choice = "pasuje"
-            st.rerun()
+            st.experimental_rerun()
     with col2:
         if st.button("❌ Opis nie pasuje do mnie"):
             st.session_state.feedback_choice = "nie_pasuje"
-            st.rerun()
+            st.experimental_rerun()
 else:
     if st.session_state.feedback_choice == "pasuje":
         with col1:
@@ -145,7 +145,7 @@ else:
                 if feedback_comment.strip():
                     add_note_to_db()
                     st.session_state.feedback_comment_submitted = True
-                    st.rerun()
+                    st.experimental_rerun()
                 else:
                     st.warning("Proszę wpisać uwagi przed wysłaniem.")
         else:
@@ -157,7 +157,7 @@ if st.session_state.feedback_choice is not None:
         st.session_state.feedback_comment_submitted = False
         if 'feedback_textarea' in st.session_state:
             del st.session_state.feedback_textarea
-        st.rerun()
+        st.experimental_rerun()
 
 same_cluster_df = all_df[all_df["Cluster"] == predicted_cluster_id]
 st.metric("Liczba twoich znajomych", len(same_cluster_df))
