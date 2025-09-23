@@ -1,12 +1,14 @@
-streamlit==1.24.0
-pandas==2.1.0
-plotly==5.16.0
-python-dotenv==1.0.0
-qdrant-client==1.1.0
+pandas==1.5.3
 scipy==1.9.3
 scikit-learn==1.1.3
 joblib==1.1.1
 scikit-plot==0.3.7
+
+streamlit==1.24.0
+plotly==5.16.0
+python-dotenv==1.0.0
+qdrant-client==1.1.0
+
 pycaret[clustering]==3.0.0
 
 
