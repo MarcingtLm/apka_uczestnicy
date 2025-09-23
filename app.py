@@ -77,7 +77,7 @@ def reset_feedback_on_cluster_change(new_cluster_id):
         if 'feedback_textarea' in st.session_state:
             del st.session_state.feedback_textarea
 
-st.set_page_config(page_title="Apka o uczestnikach kursu", layout="centered")
+st.set_page_config(page_title="Apka o uczestnikach", layout="centered")
 
 with st.sidebar:
     st.header("Powiedz nam coś o sobie")
