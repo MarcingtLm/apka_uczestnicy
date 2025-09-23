@@ -18,13 +18,11 @@ VECTOR_SIZE = 1
 ### Secrets using Streamlit Cloud Mechanism
 # https://docs.streamlit.io/deploy/streamlit-community-cloud/deploy-your-app/secrets-management
 env = dotenv_values(".env")
-# if 'QDRANT_URL' in st.secrets:
-#     env['QDRANT_URL'] = st.secrets['QDRANT_URL']
-# if 'QDRANT_API_KEY' in st.secrets:
-#     env['QDRANT_API_KEY'] = st.secrets['QDRANT_API_KEY']
+if 'QDRANT_URL' in st.secrets:
+    env['QDRANT_URL'] = st.secrets['QDRANT_URL']
+if 'QDRANT_API_KEY' in st.secrets:
+    env['QDRANT_API_KEY'] = st.secrets['QDRANT_API_KEY']
 
-QDRANT_URL = env["QDRANT_URL"]
-QDRANT_API_KEY = env["QDRANT_API_KEY"]
 
 @st.cache_resource
 def get_qdrant_client():
