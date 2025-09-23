@@ -1,0 +1,42 @@
+{
+    "Cluster 0": {
+        "name": "Wykształceni miłośnicy psów nad wodą",
+        "description": "Są to najczęściej osoby w wieku 35-44 lat, z wyższym wykształceniem, które preferują spędzanie czasu nad wodą i są miłośnikami psów. Większość z nich to mężczyźni."
+    },
+    "Cluster 1": {
+        "name": "Wykształceni Górscy entuzjaści psów",
+        "description": "Są to najczęściej osoby w wieku 45-54 lat, z wyższym wykształceniem, które preferują spędzanie czasu w górach i są miłośnikami psów. Większość z nich to mężczyźni."
+    },
+    "Cluster 2": {
+        "name": "Wykształceni Górscy miłośnicy kotów",
+        "description": "Są to najczęściej osoby w wieku 35-44 lat, z wyższym wykształceniem, które preferują spędzanie czasu w górach i są miłośnikami kotów."
+    },
+    "Cluster 3": {
+        "name": "Wykształceni Leśni miłośnicy psów",
+        "description": "Są to najczęściej osoby w wieku 45-54 lat, z wyższym wykształceniem, które preferują spędzanie czasu w lesie i są miłośnikami psów. Większość z nich to mężczyźni."
+    },
+    "Cluster 4": {
+        "name": "Górscy miłośnicy zwierząt",
+        "description": "Są to osoby w wieku 18-54 lat, ze średnim wykształceniem, które preferują spędzanie czasu w górach i mają różnorodne preferencje dotyczące zwierząt. Większość z nich to mężczyźni."
+    },
+    "Cluster 5": {
+        "name": "Wykształceni Hobbiści wodni",
+        "description": "Są to najczęściej osoby w wieku 35-44 lat, z wyższym wykształceniem, które preferują spędzanie czasu nad wodą, ale nie mają ulubionych zwierząt. Większość z nich to mężczyźni."
+    },
+    "Cluster 6": {
+        "name": "Wykształceni Wodni miłośnicy psów",
+        "description": "Są to najczęściej osoby w wieku 45-54 lat, z wyższym wykształceniem, które preferują spędzanie czasu nad wodą i są miłośnikami psów."
+    },
+    "Cluster 7": {
+        "name": "Miłośnicy psów nad wodą",
+        "description": "Są to najczęściej osoby w wieku 35-44 lat, ze średnim wykształceniem, które preferują spędzanie czasu nad wodą i są miłośnikami psów."
+    },
+    "Cluster 8": {
+        "name": "Wykształceni Młodzi leśni hobbiści psów",
+        "description": "Są to osoby w wieku 25-34 lat, z wyższym wykształceniem, które preferują spędzanie czasu w lesie i są miłośnikami psów."
+    },
+    "Cluster 9": {
+        "name": "Leśni miłośnicy kotów",
+        "description": "Są to najczęściej osoby w wieku 25-54 lat, ze średnim wykształceniem, które preferują spędzanie czasu w lesie i są miłośnikami kotów. Wszyscy z nich to mężczyźni."
+    }
+}
