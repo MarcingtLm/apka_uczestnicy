@@ -3,4 +3,5 @@ pandas
 plotly
 python-dotenv
 qdrant-client
+scikit-learn==1.7.2
 pycaret[clustering]==3.0.0
